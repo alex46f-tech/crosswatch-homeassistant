@@ -14,6 +14,8 @@ image: "ghcr.io/cenodude/crosswatch"
 
 webui: "http://[HOST]:[PORT:8787]"
 
+watchdog: "http://[HOST]:[PORT:8787]"
+
 ports:
   8787/tcp: 8787
 
