@@ -1,0 +1,30 @@
+name: "CrossWatch"
+version: "0.10.6"
+slug: "crosswatch"
+description: "Synchronize your media data across Plex, Jellyfin, Emby, SIMKL, Trakt and more."
+url: "https://github.com/cenodude/CrossWatch"
+
+arch:
+  - aarch64
+
+startup: application
+boot: auto
+
+image: "ghcr.io/cenodude/crosswatch"
+
+webui: "http://[HOST]:[PORT:8787]"
+
+ports:
+  8787/tcp: 8787
+
+ports_description:
+  8787/tcp: "CrossWatch web interface"
+
+map:
+  - type: addon_config
+    read_only: false
+
+environment:
+  TZ: "Europe/Rome"
+
+init: false
