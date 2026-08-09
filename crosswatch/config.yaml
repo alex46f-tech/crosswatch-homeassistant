@@ -1,5 +1,5 @@
 name: "CrossWatch"
-version: "0.10.6"
+version: "latest"
 slug: "crosswatch"
 description: "Synchronize your media data across Plex, Jellyfin, Emby, SIMKL, Trakt and more."
 url: "https://github.com/cenodude/CrossWatch"
