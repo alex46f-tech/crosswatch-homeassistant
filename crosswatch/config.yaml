@@ -7,6 +7,9 @@ url: "https://github.com/cenodude/CrossWatch"
 arch:
   - aarch64
 
+ingress: true
+ingress_port: 8787
+
 startup: application
 boot: auto
 
